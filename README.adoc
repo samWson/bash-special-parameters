@@ -1,0 +1,32 @@
+= BASH Special Parameters
+
+A BASH script for quickly demonstrating how special parameters <<bm>>  work.
+
+== Usage
+
+This script is intended to run in BASH although it should work with other POSIX compatable shells. It works best when it is provided with a few arguments.
+
+It can be run with the shell itself:
+
+[source,shell]
+----
+$ bash special-params abc 123 4 5 6
+----
+
+Or make the script executable then run it:
+
+[source,shell]
+----
+$ chmod +x special-params 
+$ ./special-params
+----
+
+== This Repository is in the Public Domain
+
+This repository is in the public domain. See the UNLICENSE file for details.
+
+[bibliography]
+== References
+
+* [[[bm]]] https://www.gnu.org/software/bash/manual/html_node/Special-Parameters.html#Special-Parameters[BASH Manual: Special Parameters]
+
